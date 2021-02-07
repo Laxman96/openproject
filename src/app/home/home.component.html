@@ -1,0 +1,110 @@
+<mat-card class="maincard">
+    <div class="toolbar" [class.toolbarscroll]="toolbarchange">
+        <img mat-card-image class="logo" src="../assets/imgs/logo.png" >
+
+        <div  class="menubuttons" >
+          <button mat-button class="btnfont">Products</button>
+          <button mat-button class="btnfont">Solutions</button>
+          <button mat-button class="btnfont">Pricing</button>
+          <button mat-button class="login">Login</button>
+          <button mat-button class="getst">Get Started</button>
+      </div>
+    </div>
+    <img class="circle" src="../assets/imgs/circle.svg" >    
+
+<mat-card class="matcardegcal">
+    <mat-toolbar  align="center" class="mtbar">
+        <span style="margin-left:68px">Eligibility Calculator</span>
+      </mat-toolbar>
+            <div class="egcaldata">
+            <p style="font-family:Arial, Helvetica, sans-serif;">Montly Income</p>
+            <h3><b>&#x20b9;{{slider1.value}}</b></h3>
+            <mat-slider class="average" min="0" max="500000" step="5000" #slider1 ></mat-slider>
+            <mat-hint>Hint</mat-hint>
+            <h5>Montly Expense</h5>
+            <h3><b>&#x20b9;{{slider2.value}}</b></h3>
+            <mat-slider min="0" max="500000" step="5000" #slider2></mat-slider>
+            <h5>Repayment Tenure</h5>
+            <mat-form-field>
+                <mat-select class="example-select" >
+                    <mat-option value="before">3Months</mat-option>
+                    <mat-option value="after">6Months</mat-option>
+                    <mat-option value="above">12Months</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+            <div style="margin-left:27px;">
+                <p>Do you any existing loans? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <mat-slide-toggle></mat-slide-toggle> </p>
+             </div>
+             <mat-form-field appearance="fill" style="margin-left:27px; background-color:white">
+                <mat-label>Emi on existing loan (optional)</mat-label>
+               
+             <b>   <input matInput> </b>
+                <span matPrefix><b>&#x20b9;&nbsp;</b></span>
+              </mat-form-field>
+              <mat-card class="mcardlamt">
+                <mat-card-content class="loancont">
+                    <p style="color: whitesmoke;"> Loan Amount</p>
+                    <h4 style="color: white;"><b >&#x20b9;1,00,000</b></h4>
+                    <p style="color:whitesmoke;"> Your EMI will be</p>
+                    <h4 style="color: white;"><b> &#x20b9;15,000 </b></h4>
+                </mat-card-content>
+                <button mat-button style="background-color: white; align-content:center;"><span style="color: blueviolet;"> Get Money </span></button>
+            </mat-card>
+</mat-card>    
+    <img mat-card-image class="bobsmall" src="../assets/imgs/blob-small.svg">
+    
+<p class="text"><b> We make it Super <br><br> Simple </b></p>
+<img mat-card-image class="line" src="../assets/imgs/Line 3.svg">
+    
+    <img mat-card-image class="handsshake" src ="../assets/imgs/collect_img-video.png">
+    <img mat-card-image class="dots" src ="../assets/imgs/accounting_dots.svg">
+    <img mat-card-image class="dots1" src ="../assets/imgs/accounting_dots.svg">
+
+
+    <div>
+    <img  mat-card-image src="../assets/imgs/sol_wave_bg.svg"> 
+   
+            <div class="subcards">
+                <mat-card id="mcaard" class="mtcardend">
+                    <img class="instantly" src="../assets/imgs/Get Paid Instantly.png">
+                    <h3><b> Quick cash disbursement </b></h3> 
+                    <p>Get terms loans that your business needs with in 72hrs  </p>
+
+                </mat-card>
+                <mat-card class="mtcardend ">
+                    <img class="instantly" src="../assets/imgs/Low interest rate.png">
+                    <h3><b> Low-interest rate</b></h3> 
+                    <p>Achieve your financial goals with an amazing interest rate starting at 13% per annum </p>
+
+                </mat-card>
+                <mat-card class="mtcardend ">
+                    <img class="instantly" src="../assets/imgs/Secure Payments.png"> 
+                    <h3><b> Zero paperwork </b></h3> 
+                    <p>Get started instantly by submitting only your basic details & bank statements</p>
+                </mat-card>
+            </div>
+            <div class="btmcard">
+                <mat-card class="mtcardend1 ">
+                    <img class="instantly" src="../assets/imgs/freelancer.png">
+                    <h3><b> Ace your business finances </b></h3> 
+                    <p>Manage banking, accounting & everything in between, on one platform </p>
+
+                </mat-card>
+                <mat-card  class="mtcardend1" >
+                    <img class="instantly" src="../assets/imgs/Covid.png"> 
+                    <h3><b> Loans to fight COVID-19 </b></h3> 
+                    <p>Zero EMI for first 3 months on Back-to-Business loans of upto 1 lakh </p>
+                </mat-card>
+
+            </div>        
+    </div>
+    <div class="text1">
+      <h3 class="bootup">  Boot up your Business <br> with open </h3>
+      <img mat-card-image class="line1" src="../assets/imgs/Line 3.svg">
+      <p class="ptext">Get your hands ona term loan that's <br> crafted for your business </p>
+
+      <button mat-button class="fbtn" ><span style="color:  rgb(173, 16, 221);" > Get an open Account </span></button>
+    </div>
+
+</mat-card>

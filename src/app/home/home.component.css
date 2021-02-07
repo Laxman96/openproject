@@ -1,0 +1,248 @@
+.maincard{
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.bobsmall{
+    width: 471px;
+    height: 512px;
+    background: transparent;
+    position: relative;
+    margin-top:-650px;
+    margin-left:-570px;
+    margin-bottom: 120px;
+}
+.circle{   
+    position: relative;
+    background: transparent;
+    width:950px;
+    height:950px;
+    margin-left:710px;
+    margin-top: -255px;
+    margin-bottom: 111px;
+    z-index: 1;
+   
+}
+.text{
+    font-family:sans-serif;
+    font-size: 35px;
+    margin-top: -560px;
+    margin-left: -140px;
+}
+.line{
+    position: relative;
+    width: 196px;    
+    margin-top:-940px;
+    margin-left: -290px;
+}
+.menubuttons{
+    margin-left: 850px;
+}
+
+.btnfont{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    color: #5f5d5d;
+}
+.cread{
+    border-radius: 12px;
+}
+.handsshake{
+    width: 515px;
+    height: 265px;
+    position: relative;
+    margin-top: -400px;
+    margin-left: -247px ;
+}
+.dots{
+    position: relative;
+    width: 350px;
+    height: 70px;
+    margin-left: -249px;
+    margin-top: -168px;
+}
+.matcardegcal{
+    width: 350px;
+    height:510px;
+    left:920px;
+    margin-top :-589px;
+    border: 55px !important;
+    border-radius: 20px !important;
+    border: #000 !important;
+    z-index: 1;
+}
+
+.mtbar{
+    text-align: center;
+    align-content: center;
+    height: 32px;
+    top: -12px;
+}
+
+.egcaldata{
+    align-self: center;
+    align-content:center;
+    margin-left: 27px;
+    margin-top: 30px;
+
+}
+:host ::ng-deep .average .mat-slider-thumb {
+    color: #3f1dda;
+}
+  
+.mcardlamt{
+    align-content: center;
+    max-width: 110px;
+    height: 280px;
+    left: 106%;
+    margin-top: -430px;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    background-color:#663399;
+}
+.loancont{
+    align-content: center;
+    text-align: center;
+}
+.dots1{
+    position: relative;
+    width: 320px;
+    height: 70px;
+    margin-left: 1217px;
+    margin-top: -61px;
+    margin-bottom: 120px;
+    
+    }
+.instantly{
+   max-width: 50%;
+   max-height: 50%;
+
+}
+.listcards{
+    /* flex-direction: row; */
+    padding: 0%;
+    
+}
+.subcards{
+    margin-left: 176px;
+     margin-top: -885px;
+}
+.mtcardend{
+    margin: 2rem;
+    width: 256px;
+    height: fit-content;
+    border-radius: 20px !important;
+    
+}
+.mtcardend1{
+    margin: 2rem;
+    width: 256px;
+    height: fit-content;
+    border-radius: 20px !important;
+    
+}
+.btmcard{
+    margin-left: 510px;
+    margin-top: -670px;
+    margin-bottom: 210px;
+}
+.text1{
+    margin-left: 980px;
+    margin-top: -530px;
+}
+.bootup{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+.line1{
+    width:86px;
+    margin-left: 1px;
+    margin-top: 12px;
+}
+.ptext{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(112, 107, 107);
+}
+.fbtn{
+    border: 2px solid rgb(173, 16, 221) !important;
+    border-radius: 20px !important;
+    margin-top: 42px;
+    }
+
+.mtcardend:hover{
+    background-color:#ab85c4 ;
+    background:transparent #ab85c4;
+}
+.mtcardend1:hover{
+    background-color:#ab85c4 ;
+    background:transparent #ab85c4;
+}
+
+.btnfont{
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    color: #5f5d5d;
+    background: transparent;
+    top: 4px;
+}
+.btnfont:hover{
+    color:rgb(89, 29, 107);
+}
+.menubuttons{
+   text-align: end;
+   margin-left: 730px;
+
+}
+.login{
+    width: 125px;
+    border: 2px solid rgb(89, 29, 107) !important;
+    border-radius: 20px !important;
+    margin-top: 2px;
+    margin: 1rem;
+}
+.login:hover{
+    background-color:blueviolet ;
+}
+.getst{
+    width: 146px;
+    background-color: blueviolet;
+    border: 2px solid rgb(89, 29, 107) !important;
+    border-radius: 20px !important;
+    margin-top: 2px;
+    color: whitesmoke;
+}
+.toolbar{
+    display: flex;
+    background:transparent;
+    position: fixed;
+    z-index:99;
+    width: 100%;
+    margin-left: -43px;
+    padding: 20px;
+    top: 0px;
+    text-align: center;
+    transition: .5s;
+    color: violet;
+    
+}
+.toolbarscroll{
+    position:fixed;
+    background: white ;
+    width: 100%;
+    z-index:99;
+}
+.btnfont:hover{
+    background:rgb(221, 213, 223);
+}
+.logo{
+    margin-left: 60px;
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+}
